@@ -1,8 +1,15 @@
 ﻿<%@ Page Title="Contact" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.vb" Inherits="MercaPalmasWeb.Contact" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
+    <div class="row mx-auto">
+        <div class="col-12">
+            <h1 class="fs-1 text-capitalize fw-light" style="text-align:center;">
+                Contáctanos
+            </h1>
+        </div>
+    </div>
     <!-- Wrapper container -->
-<div class="container py-4">
+<div class="container py-4 p-5">
 
   <!-- Bootstrap 5 starter form -->
   <form id="contactForm">
