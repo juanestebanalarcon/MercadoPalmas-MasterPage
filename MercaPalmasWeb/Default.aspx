@@ -78,7 +78,7 @@
     <li class="list-group-item">
 Ser tu supermercado preferido.
     </li>
-    <li>
+    <li class="list-group-item">
 Tu distribuidor de referencia.
     </li>
     <li class="list-group-item">
