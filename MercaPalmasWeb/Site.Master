@@ -26,7 +26,7 @@
         <a class="nav-link" href="#">Alimentos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Recetas</a>
+        <a class="nav-link" href="Recetas.aspx">Recetas</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Productos de limpieza</a>
