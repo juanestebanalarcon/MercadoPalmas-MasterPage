@@ -44,8 +44,7 @@
 </div>
       </div>
   </div>
-    <hr />
-    </div>   
+    <hr />   
     <div class="row mx-auto">
         <div class="col-12">
             <h1 class="fs-1 text-capitalize fw-light" style="text-align:center;">Misión y Visión</h1>

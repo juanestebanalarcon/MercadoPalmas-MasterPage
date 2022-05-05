@@ -1,10 +1,10 @@
-﻿<%@ Page Title="Home Page" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="MercaPalmasWeb._Default" %>
+﻿<%@ Page Title="Home Page" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Alimentos.aspx.vb" Inherits="MercaPalmasWeb._Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
     <div class="row mx-auto">
         <div class="col-12">
-            <h1 class="fs-1 text-capitalize fw-light" style="text-align:center;">Nuestros valores</h1>
+            <h1 class="fs-1 text-capitalize fw-light" style="text-align:center;">Recetas</h1>
         </div> 
       </div>
       <div class="row mx-auto">
@@ -12,10 +12,9 @@
   <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="source/compromiso.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Compromiso</h5>
+    <h5 class="card-title">receta 00</h5>
         <p class="card-text">
-     Tenemos una firme implicación de la organización con
-    todos nuestros grupos de interés: clientes, personas, aliados y sociedad.
+asdf
         </p>
   </div>
 </div>
@@ -24,10 +23,9 @@
   <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="source/ilusion.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Ilusión</h5>
+    <h5 class="card-title">receta 00</h5>
     <p class="card-text">
-    Disfrutamos con lo que hacemos para conseguir cada día
-    nuestra visión empresarial.
+    asdf
     </p>
   </div>
 </div>
@@ -38,17 +36,16 @@
   <div class="card-body">
     <h5 class="card-title">Honestidad</h5>
     <p class="card-text">
-        Actuamos con justicia. Trabajamos de forma íntegra con transparencia y coherencia.
+asdf    
     </p>
   </div>
 </div>
       </div>
   </div>
-    <hr />
-    </div>   
+    <hr />   
     <div class="row mx-auto">
         <div class="col-12">
-            <h1 class="fs-1 text-capitalize fw-light" style="text-align:center;">Misión y Visión</h1>
+            <h1 class="fs-1 text-capitalize fw-light" style="text-align:center;">¡Más recetas!</h1>
         </div>
     </div>
     <hr />
@@ -57,11 +54,9 @@
   <div class="card" style="width: 50%;">
   <img class="card-img-top" src="source/Mision.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Misión</h5>
+    <h5 class="card-title">Receta 00</h5>
         <p class="card-text">
-            MERCA-PALMAS es un supermercado y distribuidor de productos de gran
-            consumo, especializada en productos frescos, atención al cliente y servicio
-            personalizado, buscando la mejor relación calidad precio.
+      asdf
         </p>
   </div>
 </div>
@@ -70,25 +65,10 @@
   <div class="card" style="width: 50%;">
   <img class="card-img-top" src="source/vision.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Visión</h5>
+    <h5 class="card-title">Receta 00</h5>
         <p class="card-text">
-        Queremos ser la mejor cadena de distribución de productos de gran consumo
-        en nuestras zonas de influencia:
-<ul class="list-group-flush"> 
-    <li class="list-group-item">
-Ser tu supermercado preferido.
-    </li>
-    <li class="list-group-item">
-Tu distribuidor de referencia.
-    </li>
-    <li class="list-group-item">
-La empresa en la que estás orgulloso de trabajar.
-    </li>
-    <li class="list-group-item">
-Una organización sostenible y comprometida con su entorno.
-    </li>
-</ul>
-        </p>
+asf        
+</p>
   </div>
 </div>
       </div>      
