@@ -8,14 +8,16 @@
              <form runat="server" method="post">
                  <div class="mb-3">
                  <label class="form-label">Usuario</label>
-                 <input placeholder="Usuario" type="text" style="text-align:center;" class="form-control"/>
+                 <asp:TextBox runat="server" placeholder="Usuario" CssClass="form-control" ID="usuario" style="text-align:center;"></asp:TextBox>
+                 <asp:RequiredFieldValidator runat="server" ID="usernameVal" ControlToValidate="usuario" ErrorMessage="Éste campo es obligatorio." BackColor="#e15558"></asp:RequiredFieldValidator>
                  </div>
                  <div class="mb-3">
                  <label class="form-label">Contraseña</label>
-                 <input placeholder="Contraseña" type="text" style="text-align:center;" class="form-control"/>
+                 <asp:TextBox runat="server" placeholder="Contraseña" ID="pass" style="text-align:center;" class="form-control" TextMode="Password"></asp:TextBox>
+                 <asp:RequiredFieldValidator runat="server" ID="passVal" ControlToValidate="pass" ErrorMessage="Éste campo es obligatorio." BackColor="#e15558"></asp:RequiredFieldValidator>
                  </div>
                  <div class="col-auto">
-                     <button type="submit" class="btn btn-primary float-end">Iniciar Sesión</button>
+                     <asp:Button runat="server" CssClass="btn btn-primary float-end" Text="Iniciar Sesión" ID="btnSend" OnClick=""/>
                  </div>
              </form>
      </div>
